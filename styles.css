@@ -1,0 +1,71 @@
+body {
+    margin: 30px 20px;
+    border: 10px transparent;
+    padding: 0px;
+    font-family: Calibri;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    padding: 20px 30px;
+    background: deepskyblue;
+    font-family: Verdana;
+}
+
+h2 {
+    font-family: Courier;
+}
+
+a:link {
+    color: OrangeRed;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+code.inline {
+    color: aquamarine;
+    font-family: Consolas;
+    border: 1px solid #909090;
+    padding: 0.5px;
+}
+
+div.codeblock {
+    color: white;
+    font-family: Consolas;
+    margin: 0px 40px;
+    border: 1px solid #303030;
+    border-left-width: 4px;
+    border-left-color: royalblue;
+    padding: 5px 15px;
+    width: 900px;
+    background-color:#202020;
+}
+
+span.null {color: white;}
+
+/* for <brackets> and values as in attribute=value */
+span.style {color: aquamarine;}
+
+/* for tag names as in <tagname> */
+span.tag {color: cyan;}
+
+/* for attribute names as in attribute=value */
+span.attribute {color: royalblue;}
+
+a:visited {
+    color: royalblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: LightSkyBlue;
+    background-color: transparent;
+    text-decoration: underline;
+
+a:active {
+    color: White;
+    background-color: transparent;
+    text-decoration: underline;
+}

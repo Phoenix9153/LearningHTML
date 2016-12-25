@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>HTML Basics</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<h1>HTML Basics</h1>
+
+<h2>Table of Contents</h2>
+  <a href="#B01">What is HTML</a> <br>
+  <a href="#B02">Creating a HTML document</a><br>
+  <a href="#B03">Starting Code</a>
+
+<br>
+<hr>
+
+<h2>What is HTML?</h2>
+  <p>HTML is the standard markup language for creating Web pages.</p>
+  <ul>
+    <li>HTML stands for Hyper Text Markup Language</li>
+    <li>HTML describes the structure of Web pages using markup</li>
+    <li>HTML elements are the building blocks of HTML pages</li>
+    <li>HTML elements are represented by tags</li>
+    <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
+    <li>Browsers do not display the HTML tags, but use them to render the content of the page</li>
+  </ul>
+
+<!--Setting up a HTML document-->
+<h2 id="B02">Creating your personal HTML document</h2>
+  <p>Steps to set up a HTML document:</p>
+  <ol>
+    <li>Open Notepad for PC or Textedit for Mac</li>
+    <li>For Textedit, make sure in Preferences that plain text format is selected. Afterwards, go to the Open and Save tab and tick the box saying "Display HTML files as HTML code instead of formatted text" or something similar.
+    <li>Write any HTML you wish into the document</li>
+    <li>Save the document as a HTML file with the .html extension and set the encoding to UTF-8 (which is the preferred encoding for HTML files).</li>
+    <li>To make a stylesheet, repeat similar steps except save the file with a .css extension.</li>
+    <li>View your html page in your browser by double clicking the file or by right-clicking and select "Open with…"</li>
+  </ol>
+
+<h2 id="B03">Starting Code</h2>
+  <p>As stated previously, HTML elements are represented by tags. Usually, these tags have a start tag and a corresponding tag, for example: 
+  <p style="font-family:Consolas;font-size:20px"><span class="null">&nbsp;&nbsp;</span><span class="style"><</span><span class="tag">tagname</span><span class="style">></span><span class="null">Content goes here…</span><span class="style">&lt;/</span><span class="tag">tagname</span><span class="style">></span></p>
+  <p>The HTML element is everything from the start tag to the end tag</p>
+
+  <p>First of all, HTML documents always start with <code class="inline">&lt;!DOCTYPE html&gt;</code>. This tag declares the document to be HTML5 and only needs to be stated once at the beginning of the document.</p>
+  <p>The HTML document itself begins with <code class="inline">&lt;html&gt;</code> and ends with <code class="inline">&lt;/html&gt;</code>.</p>
+  <p>Code within the document is separated into 
+
+<h2>Tables</h2>
+
+<div class="codeblock">
+  <span style="padding-right:0.1px;"><span class="style"><</span><span class="tag">table</span><span class="attribute"> style</span><span class="null">=</span><span class="style">"width:100%"</span><span class="style">></span><br>
+
+<!--first row-->
+  <span class="null">&nbsp;&nbsp;</span><span class="style"><</span><span class="tag">tr</span><span class="style">></span><br>
+
+  <span class="null">&nbsp;&nbsp;</span><span class="style"><</span><span class="tag">th</span><span class="style">></span><span class="null">Firstname</span><span class="style">&lt;/</span><span class="tag">th</span><span class="style">></span><br>
+
+  <span class="null">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style"><</span><span class="tag">th</span><span class="style">></span><span class="null">Lastname</span><span class="style">&lt;/</span><span class="tag">th</span><span class="style">></span><br>
+
+  <span class="null">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style"><</span><span class="tag">th</span><span class="style">></span><span class="null">Age</span><span class="style">&lt;/</span><span class="tag">th</span><span class="style">></span><br>
+
+  <span class="null">&nbsp;&nbsp;</span><span class="style">&lt;/</span><span class="tag">tr</span><span class="style">></span><br>
+
+<!--second row-->
+  <span class="null">&nbsp;&nbsp;</span><span class="style"><</span><span class="tag">tr</span><span class="style">></span><br>
+
+  <span class="null">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style"><</span><span class="tag">td</span><span class="style">></span><span class="null">Jill</span><span class="style">&lt;/</span><span class="tag">td</span><span class="style">></span><br>
+
+  <span class="null">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style"><</span><span class="tag">td</span><span class="style">></span><span class="null">Smith</span><span class="style">&lt;/</span><span class="tag">td</span><span class="style">></span><br>
+
+  <span class="null">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style"><</span><span class="tag">td</span><span class="style">></span><span class="null">50</span><span class="style">&lt;/</span><span class="tag">td</span><span class="style">></span><br>
+
+  <span class="null">&nbsp;&nbsp;</span><span class="style">&lt;/</span><span class="tag">tr</span><span class="style">></span><br>
+
+<!--third row-->
+  <span class="null">&nbsp;&nbsp;</span><span class="style"><</span><span class="tag">tr</span><span class="style">></span><br>
+
+  <span class="null">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style"><</span><span class="tag">td</span><span class="style">></span><span class="null">Eve</span><span class="style">&lt;/</span><span class="tag">td</span><span class="style">></span><br>
+
+  <span class="null">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style"><</span><span class="tag">td</span><span class="style">></span><span class="null">Jackson</span><span class="style">&lt;/</span><span class="tag">td</span><span class="style">></span><br>
+
+  <span class="null">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style"><</span><span class="tag">td</span><span class="style">></span><span class="null">94</span><span class="style">&lt;/</span><span class="tag">td</span><span class="style">></span><br>
+
+  <span class="null">&nbsp;&nbsp;</span><span class="style">&lt;/</span><span class="tag">tr</span><span class="style">></span><br>
+
+<span class="style">&lt;/</span><span class="tag">table</span><span class="style">></span><br>
+</div>
+
+</div>
+</body>
